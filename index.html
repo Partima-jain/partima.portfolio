@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partima's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Experience</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Full Stack developer</p>
+            <h1>Hi, I'm <br><span>Partima </span>Jain</h1>
+        </div>
+    </div>
+</div>
+<!------------------about------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm a front end developer. I've worked on a variety of projects. I'm passionate about creating great user experiences and have a strong understanding of usability and accessibility standards.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onmouseover="opentab('skills')">Skills</p>
+                    <p class="tab-links" onmouseover="opentab('experience')">Experience</p>
+                    <p class="tab-links" onmouseover="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming Language</span><br>Python</li>
+                        <li><span>Web Development Languages</span><br>HTML5, CSS</li>
+                        <li><span>Scripting Languages</span><br>JavaScript</li>
+                        <li><span>Framework & libraries</span><br>React.js</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Certificate of Participation</span><br>Advance Python Programming</li>
+                        <li><span>Internship</span><br>Engineer Core Summer Internship</li>
+                        <li><span>e-Yantra</span><br>Crash Course Embedded System & Robotics</li>
+                        <li><span>Certificate of Completion</span><br>Workshop Of data Analytics</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-2015</span><br>B Tech from CGC, Jhanjheri </li>
+                        <li><span>2020-2021</span><br>12th from Rigveda International School, Tohana</li>
+                        <li><span>2018-2019</span><br>10th from DAV School, Tohana</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------------Services---------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Python Program</h2>
+                <p>Advance Python programming copurse with Engineer Core Summer Internship in association with Effervescence IIIT Allahbad in month of may & june 2023</p>
+                <a href="https://engineercore.in/product/advance-python-programming/">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Python Program</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum officia optio aliquid saepe tempore consequuntur similique nobis mollitia excepturi distinctio commodi expedita delectus, et omnis laborum sint corporis temporibus voluptates!</p>
+                <a href="https://engineercore.in/product/advance-python-programming/">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Python Program</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo asperiores et ipsum perspiciatis ut labore impedit magni autem eius perferendis aperiam eveniet a magnam ad unde, beatae cupiditate voluptatibus fugit.</p>
+                <a href="https://engineercore.in/product/advance-python-programming/">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------Portfolio--------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My project</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work1.png">
+                <div class="layer">
+                    <h3>Currency convertor</h3>
+                    <p> Currencies are converted using an exchange rate. This rate is the relative price of two currencies.Source code here <i class="fa-solid fa-arrow-turn-down"></i></p>
+                    <a href="https://github.com/Partima-jain/currency-converter"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work2.png">
+                <div class="layer">
+                    <h3>Voice Assistant</h3>
+                    <p>With the use of voice assistants, we can automate the task easily, just give the input to the machine in the speech form and all the tasks will be done by it.Source code here <i class="fa-solid fa-arrow-turn-down"></i></p>
+                    <a href="https://github.com/Partima-jain/Voice-Assistant"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work3.png">
+                <div class="layer">
+                    <h3>Tic Tac Toe</h3>
+                    <p>Tic Tac Toe is a popular two-player game that can be implemented using JavaScript.Source code here <i class="fa-solid fa-arrow-turn-down"></i></p>
+                    <a href="https://github.com/Partima-jain/Tic-tac-toe"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+    </div>
+    <div class="work-list">
+            <div class="work">
+                <img src="work4.png">
+                <div class="layer">
+                    <h3>CSS Based Amazon Clone</h3>
+                    <p>Amazon Clone : A web-based mockup inspired by Amazon's design. This project showcases HTML and CSS skills.Source code here <i class="fa-solid fa-arrow-turn-down"></i></p>
+                    <a href="https://github.com/Partima-jain/css-based-Amazon-clone"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work5.png">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p> The Weather App Development in Python is a simple application that provides weather information for a specified city.Source code here <i class="fa-solid fa-arrow-turn-down"></i></p>
+                    <a href="https://github.com/Partima-jain/Weather-App"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work6.png">
+                <div class="layer">
+                    <h3>Internet Speed Calculator </h3>
+                    <p> We can create a Python application using the pyspeedtest library to assess and evaluate the efficiency of our internet connection. Source code here <i class="fa-solid fa-arrow-turn-down"></i></p>
+                    <a href="https://github.com/Partima-jain/Internet_speed_calculator"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>            
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-------------------------Contact--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>parigarg211@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 94684 05180</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/partima-jain/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Partima-jain"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.instagram.com/partima_jain_/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://leetcode.com/Partima_jain/"><i class="fa-solid fa-code"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1YQJxJF75tiCZEqoNHwo4Wjc67gcBtUHB/view?usp=drivesdk" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">Copyright © Partima. Made with <i class="fa-solid fa-heart"></i></div>
+</div>
+
+<script src="script.js"></script>
+<script src="script1.js"></script>
+</body>
+</html>
